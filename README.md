@@ -112,6 +112,6 @@ Smart text extraction + deterministic AI classification + minimal dependencies â
 curl -X POST "http://localhost:5000/categorize" \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer <GitHub PAT>" \
-  -d '{"input":"This is a tutorial about .NET Minimal API design"}'
+  -d '{"input":"https://www.milanjovanovic.tech/blog/how-dotnet-aspire-simplifies-service-discovery"}'
 ```
 
