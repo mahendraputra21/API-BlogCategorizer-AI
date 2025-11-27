@@ -16,7 +16,7 @@ The **Blog Categorizer** is a **.NET 10 Minimal API** service that classifies bl
 5. **Validates the result**, defaults to **Other** when uncertain
 
 ## ✅ Supported Categories
-Tech, AI, Cloud, .NET, Architecture, Tutorials, Other
+Technology, AI, Cloud, .NET, Architecture, Business, Other
 
 ## 🧩 Architecture
 <img width="1895" height="289" alt="image" src="https://github.com/user-attachments/assets/2793e742-e050-43f6-9178-aafedea222e4" />
