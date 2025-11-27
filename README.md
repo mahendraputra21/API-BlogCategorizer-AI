@@ -20,7 +20,7 @@ Tech, AI, Cloud, .NET, Architecture, Tutorials, Other
 
 ## 🧩 Architecture
 <img width="1895" height="289" alt="image" src="https://github.com/user-attachments/assets/2793e742-e050-43f6-9178-aafedea222e4" />
-
+https://www.figma.com/board/Kbw4NKDFwDa8kWjuwAfRid/BlogCategorizer-System?node-id=0-1&t=kGFrrgoFzPIELs58-1
 
 ## 📤 API Specification
 
