@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>ca1c0731-ab47-42df-a064-a4fdf01d484b</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.12.4" />
+    <PackageReference Include="SmartReader" Version="0.10.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.0.1" />
+  </ItemGroup>
+
+</Project>
