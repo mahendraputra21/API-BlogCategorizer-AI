@@ -14,7 +14,7 @@ public class AiHttpClientCategorizer : IAiHttpClientCategorizer
     private readonly HttpClient _http;
     private readonly string _pat;
     private readonly string? _orgName;
-    private static readonly string[] Allowed = ["Tech", "AI", "Cloud", ".NET", "Architecture", "Tutorials", "Other"];
+    private static readonly string[] Allowed = ["Technology", "AI", "Cloud", ".NET", "Architecture", "Business", "Other"];
 
     public AiHttpClientCategorizer(HttpClient http, IConfiguration config)
     {
@@ -49,7 +49,7 @@ public class AiHttpClientCategorizer : IAiHttpClientCategorizer
         if (content.Length > maxChars) content = content.Substring(0, maxChars);
 
         var systemPrompt = @"You are a blog post categorizer.
-        Allowed categories (exactly): Technology, AI, Cloud, Programming, Architecture, Business, Other.
+        Allowed categories (exactly): Technology, AI, Cloud, .NET, Architecture, Business, Other.
         Return EXACTLY ONE category word from the list above, and nothing else. If unsure, return Other.";
 
         var payload = new
